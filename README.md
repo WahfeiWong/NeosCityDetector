@@ -6,6 +6,21 @@ Since configuring GPU‑accelerated inference is cumbersome for ordinary users, 
 
 Note that the deep learning models (e.g., the semantic segmentation model CitySemSegFormer and the object detection model YOLOv12) need to be trained and converted to .onnx format by the user. The usage examples provide download links for two pre‑trained models.
 
+
+Packages need：
+Microsoft.Bcl.HashCode.6.0.0,
+Microsoft.ML.OnnxRuntime.1.24.2,
+Microsoft.ML.OnnxRuntime.Managed.1.24.2,
+System.Buffers.4.6.1,
+System.Collections.Immutable.10.0.3,
+System.Formats.Nrbf.10.0.3,
+System.Memory.4.6.3,
+System.Numerics.Vectors.4.6.1,
+System.Reflection.Metadata.10.0.3,
+System.Resources.Extensions.10.0.3,
+System.Runtime.CompilerServices.Unsafe.6.1.2,
+System.ValueTuple.4.6.1
+
 CitySemSegFormer Model link：
 https://catalog.ngc.nvidia.com/orgs/nvidia/teams/tao/models/citysemsegformer?version=deployable_onnx_v1.0
 
